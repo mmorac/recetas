@@ -3,7 +3,7 @@ orbs:
   browser-tools: circleci/browser-tools@1.2.3
 jobs:
   build:
-    working_directory: ~/tmp
+    working_directory: ~/recetas/tmp
     docker:
       - image: cimg/node:16.13.1-browsers
     steps:
@@ -14,7 +14,8 @@ jobs:
             google-chrome --version
             chromedriver --version
           name: Check install
-      - checkout
+      - checkout:
+        - path: ~/recetas
       - restore_cache:
           key: ng-project-{{ .Branch }}-{{ checksum "package-lock.json" }}
       - run: npm install
