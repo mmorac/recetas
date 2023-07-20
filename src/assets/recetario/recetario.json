@@ -1,0 +1,121 @@
+[
+    {
+        "nombre": "Arroz Blanco",
+        "autor": "doña Ana",
+        "ingredientes":[
+            {
+                "nombre":"arroz",
+                "cantidad": "2 tazas"
+            },
+            {
+                "nombre": "aceite",
+                "cantidad": "1 cucharada"
+            },
+            {
+                "nombre": "sal",
+                "cantidad": "1 cucharadita"
+            },
+            {
+                "nombre": "chile dulce",
+                "cantidad": "al gusto"
+            },
+            {
+                "nombre": "culantro",
+                "cantidad": "al gusto"
+            }
+        ],
+        "preparacion": "Lavar el arroz. Agregar agua. Agregar sal. Poner 12 minutos en el microondas. Enfriar por 5 minutos. Agregar aceite y olores, y luego mover bien. Poner 3 minutos en el microondas. Enfriar por 2 minutos. Mover. Servir."
+    },
+    {
+        "nombre": "Empanaditas de chiverre",
+        "autor": "Mario",
+        "ingredientes":[
+            {
+                "nombre":"crema dulce",
+                "cantidad": "1"
+            },
+            {
+                "nombre": "barra de mantequilla",
+                "cantidad": "1"
+            },
+            {
+                "nombre": "harina",
+                "cantidad": "3 tazas"
+            }
+        ],
+        "preparacion": "Cernir la harina. Agregar la mantequilla. Revolver con la crema dulce hasta formar una bola. Se deja reposar por 5 minutos. Se extiende la masa y se corta en círculos medianos. Se precalienta el horno a 350° F. Se bate un huevo con una cucharadita de agua. Se pone el chiverre y se pone mezcla de huevo en los bordes para cerrar. Se cierran las empanaditas y se ponen en un molde para hornear. Se bañan con la mezcla de huevo y se hornean 35 minutos o hasta estar doraditas."
+    },
+    {
+        "nombre": "Macarrones",
+        "autor": "doña Ana",
+        "ingredientes":[
+            {
+                "nombre":"macarrones",
+                "cantidad": "1 paquete o medio"
+            },
+            {
+                "nombre": "tomate",
+                "cantidad": "2 grandes"
+            },
+            {
+                "nombre": "consomé",
+                "cantidad": "1"
+            },
+            {
+                "nombre": "olores",
+                "cantidad": "al gusto"
+            },
+            {
+                "nombre": "carne molida",
+                "cantidad": "al gusto"
+            },
+            {
+                "nombre": "pasta de tomate",
+                "cantidad": "al gusto"
+            },
+            {
+                "nombre": "queso",
+                "cantidad": "al gusto"
+            }
+        ],
+        "preparacion": "Hervir agua. En el proceso, agregar sal para evitar que se peguen. Al estar al dente, se quitan del fuego y se escurren con agua fría para detener la cocción. Se licuan los tomates con los olores, la pasta y el consomé. En un sartén se pueden sofreír olores y agregar la carne molida. Se incorpora la salsa una vez cocida."
+    },
+    {
+        "nombre": "Carne mechada",
+        "autor": "Naty",
+        "ingredientes":[
+            {
+                "nombre":"macarrones",
+                "cantidad": "1 paquete o medio"
+            },
+            {
+                "nombre": "tomate",
+                "cantidad": "2 grandes"
+            },
+            {
+                "nombre": "consomé",
+                "cantidad": "1"
+            },
+            {
+                "nombre": "olores",
+                "cantidad": "al gusto"
+            },
+            {
+                "nombre": "carne molida",
+                "cantidad": "al gusto"
+            },
+            {
+                "nombre": "pasta de tomate",
+                "cantidad": "al gusto"
+            },
+            {
+                "nombre": "queso",
+                "cantidad": "al gusto"
+            }
+        ],
+        "preparacion": "Hervir agua. En el proceso, agregar sal para evitar que se peguen. Al estar al dente, se quitan del fuego y se escurren con agua fría para detener la cocción. Se licuan los tomates con los olores, la pasta y el consomé. En un sartén se pueden sofreír olores y agregar la carne molida. Se incorpora la salsa una vez cocida."
+    }
+
+
+
+]

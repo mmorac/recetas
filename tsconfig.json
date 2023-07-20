@@ -2,10 +2,12 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+    "esModuleInterop": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
@@ -22,6 +24,12 @@
     "lib": [
       "ES2022",
       "dom"
+    ],
+    "typeRoots": [
+        "node_modules/@types"
+    ],    
+    "types": [
+      "node"
     ]
   },
   "angularCompilerOptions": {
