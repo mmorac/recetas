@@ -114,6 +114,107 @@
             }
         ],
         "preparacion": "Hervir agua. En el proceso, agregar sal para evitar que se peguen. Al estar al dente, se quitan del fuego y se escurren con agua fría para detener la cocción. Se licuan los tomates con los olores, la pasta y el consomé. En un sartén se pueden sofreír olores y agregar la carne molida. Se incorpora la salsa una vez cocida."
+    },
+    {
+        "nombre": "Pan de banano",
+        "autor": "Naty",
+        "ingredientes":[
+            {
+                "nombre":"bananos",
+                "cantidad": "4"
+            },
+            {
+                "nombre": "huevos",
+                "cantidad": "3"
+            },
+            {
+                "nombre": "leche condensada",
+                "cantidad": "1 lata"
+            },
+            {
+                "nombre": "polvo para hornear",
+                "cantidad": "2 cucharaditas"
+            },
+            {
+                "nombre": "harina",
+                "cantidad": "2.5 tazas"
+            },
+            {
+                "nombre": "canela",
+                "cantidad": "al gusto"
+            },
+            {
+                "nombre": "almendras",
+                "cantidad": "al gusto"
+            },
+            {
+                "nombre": "vainilla",
+                "cantidad": "al gusto"
+            }
+        ],
+        "preparacion": "Se mezcla el  banano, huevos, y la mantequilla derretida. Se agregan la harina y el polvo para hornear. Se hornea a 350° F por 50 minutos."
+    },
+    {
+        "nombre": "Panqueques de papaya",
+        "autor": "Naty",
+        "ingredientes":[
+            {
+                "nombre":"papaya en cubos",
+                "cantidad": "1 taza"
+            },
+            {
+                "nombre": "chía",
+                "cantidad": "1 cucharada"
+            },
+            {
+                "nombre": "polvo para hornear",
+                "cantidad": "1 cucharadita"
+            },
+            {
+                "nombre": "leche",
+                "cantidad": "1 taza"
+            },
+            {
+                "nombre": "harina",
+                "cantidad": "1 taza"
+            },
+            {
+                "nombre": "maple",
+                "cantidad": "1 taza"
+            },
+            {
+                "nombre": "papaya",
+                "cantidad": "1 taza"
+            }
+        ],
+        "preparacion": ""
+    },
+    {
+        "nombre": "Crepas",
+        "autor": "Mario",
+        "ingredientes":[
+            {
+                "nombre":"harina",
+                "cantidad": "1 1/2 taza"
+            },
+            {
+                "nombre": "huevos",
+                "cantidad": "2"
+            },
+            {
+                "nombre": "agua",
+                "cantidad": "1/2 taza"
+            },
+            {
+                "nombre": "leche",
+                "cantidad": "1/2 taza"
+            },
+            {
+                "nombre": "vainilla",
+                "cantidad": "al gusto"
+            }
+        ],
+        "preparacion": "Se revuelven los ingredientes hasta formar una mezcla uniforme. Se utiliza la crepera para cocinar una a una."
     }
 
 

@@ -29,7 +29,9 @@
         "node_modules/@types"
     ],    
     "types": [
-      "node"
+      "node",
+      "mocha",
+      "jest"
     ]
   },
   "angularCompilerOptions": {
