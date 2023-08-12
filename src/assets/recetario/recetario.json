@@ -35,8 +35,8 @@
                 "cantidad": "1"
             },
             {
-                "nombre": "barra de mantequilla",
-                "cantidad": "1"
+                "nombre": "mantequilla",
+                "cantidad": "1 barra (115g)"
             },
             {
                 "nombre": "harina",
@@ -138,6 +138,10 @@
             {
                 "nombre": "harina",
                 "cantidad": "2.5 tazas"
+            },
+            {
+                "nombre": "mantequilla",
+                "cantidad": "1 barra (115g)"
             },
             {
                 "nombre": "canela",
