@@ -219,6 +219,33 @@
             }
         ],
         "preparacion": "Se revuelven los ingredientes hasta formar una mezcla uniforme. Se utiliza la crepera para cocinar una a una."
+    },
+    {
+        "nombre": "Arepas",
+        "autor": "Nario",
+        "ingredientes":[
+            {
+                "nombre":"harina",
+                "cantidad": "1 taza"
+            },
+            {
+                "nombre": "huevos",
+                "cantidad": "2"
+            },
+            {
+                "nombre": "polvo para hornear",
+                "cantidad": "1 cucharadita"
+            },
+            {
+                "nombre": "leche",
+                "cantidad": "1/2 taza"
+            },
+            {
+                "nombre": "vainilla",
+                "cantidad": "al gusto"
+            }
+        ],
+        "preparacion": "Se revuelven los ingredientes hasta formar una mezcla uniforme. Se fríen en el sartén una a una."
     }
 
 
