@@ -222,7 +222,7 @@
     },
     {
         "nombre": "Arepas",
-        "autor": "Nario",
+        "autor": "Mario",
         "ingredientes":[
             {
                 "nombre":"harina",
@@ -246,8 +246,41 @@
             }
         ],
         "preparacion": "Se revuelven los ingredientes hasta formar una mezcla uniforme. Se fríen en el sartén una a una."
+    },
+    {
+        "nombre": "Arroz con leche",
+        "autor": "Naty",
+        "ingredientes": [
+            {
+                "nombre": "arroz",
+                "cantidad": "1 taza"
+            },
+            {
+                "nombre": "agua",
+                "cantidad": "4 tazas"
+            },
+            {
+                "nombre": "canela en astilla",
+                "cantidad": "2"
+            },
+            {
+                "nombre": "nuez moscada",
+                "cantidad": "al gusto"
+            },
+            {
+                "nombre": "leche",
+                "cantidad": "2 tazas"
+            },
+            {
+                "nombre": "leche evaporada",
+                "cantidad": "1 taza"
+            },
+            {
+                "nombre": "leche condensada",
+                "cantidad": "1 1/2 taza"
+            }
+        ],
+        "preparacion": "Se pone a hervir el arroz y esperar a que reviente y se seque. Poner en la licuadora la leche normal, la evaporada, y la condensada. Más canela y nuez moscada. Revolver todo y agregar al arroz. Dejar hervir y mover a fuego bajo hasta que espese lo suficiente."
     }
-
-
 
 ]
