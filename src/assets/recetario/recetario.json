@@ -281,6 +281,42 @@
             }
         ],
         "preparacion": "Se pone a hervir el arroz y esperar a que reviente y se seque. Poner en la licuadora la leche normal, la evaporada, y la condensada. Más canela y nuez moscada. Revolver todo y agregar al arroz. Dejar hervir y mover a fuego bajo hasta que espese lo suficiente."
+    },
+    {
+        "nombre": "Mac & Cheese",
+        "autor": "Mario",
+        "ingredientes":[
+            {
+                "nombre":"pasta",
+                "cantidad": "250g"
+            },
+            {
+                "nombre": "mantequilla",
+                "cantidad": "4 cdtas"
+            },
+            {
+                "nombre": "cheddar",
+                "cantidad": "200g"
+            },
+            {
+                "nombre": "leche",
+                "cantidad": "1 vaso"
+            },
+            {
+                "nombre": "sal",
+                "cantidad": "al gusto"
+            },
+            {
+                "nombre": "pimienta",
+                "cantidad": "al gusto"
+            },
+            {
+                "nombre": "queso rallado",
+                "cantidad": "al gusto"
+            }
+
+        ],
+        "preparacion": "Hervir la pasta. Calentar la leche e incorporar la pasta. Se agregan la mantequilla, el queso y los condimentos. Se remueve hasta que el queso haya derretido. Una vez acabado, se puede colocar en una taza, agregar queso rallado y poner en el horno o freidora de aire a 200° C hasta que dore el queso rayado."
     }
 
 ]
