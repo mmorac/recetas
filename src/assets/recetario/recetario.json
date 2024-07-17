@@ -317,6 +317,93 @@
 
         ],
         "preparacion": "Hervir la pasta. Calentar la leche e incorporar la pasta. Se agregan la mantequilla, el queso y los condimentos. Se remueve hasta que el queso haya derretido. Una vez acabado, se puede colocar en una taza, agregar queso rallado y poner en el horno o freidora de aire a 200° C hasta que dore el queso rayado."
+    },
+    {
+        "nombre": "Queque de zanahoria, yogurt y especias",
+        "autor": "Naty",
+        "ingredientes":[
+            {
+                "nombre": "harina",
+                "cantidad": "1 2/3 taza"
+            },
+            {
+                "nombre": "bicarbonato de sodio",
+                "cantidad": "1 cucharadita"
+            },
+            {
+                "nombre": "polvo para hornear",
+                "cantidad": "1 cucharadita"
+            },
+            {
+                "nombre": "jengibre",
+                "cantidad": "1 cucharada"
+            },
+            {
+                "nombre": "canela en polvo",
+                "cantidad": "1 cucharadita"
+            },
+            {
+                "nombre": "huevos",
+                "cantidad": "2 o 3"
+            },
+            {
+                "nombre": "azúcar moreno",
+                "cantidad":"1 taza"
+            },
+            {
+                "nombre": "aceite de coco líquido",
+                "cantidad": "1/4 de taza"
+            },
+            {
+                "nombre": "zanahorias",
+                "cantidad": "2"
+            },
+            {
+                "nombre": "yogurt natural",
+                "cantidad": "1/2 taza"
+            },
+            {
+                "nombre": "nueces",
+                "cantidad": "1/2 taza"
+            }
+        ],
+        "preparacion": "Unir los ingredientes secos con las semillas. En otro bowl, mezclar bien el aceite de coco con el azúcar y los huevos, para luego agregar las zanahorias y el yogurt. Finalmente, unir secos y líquidos, precalentar a 300° F (~150° C) y cocinar por 30 minutos."
+    },
+    {
+        "nombre": "Budín",
+        "autor": "Naty",
+        "ingredientes":[
+            {
+                "nombre": "baguette",
+                "cantidad": "1"
+            },
+            {
+                "nombre": "leche",
+                "cantidad": "2 tazas"
+            },
+            {
+                "nombre": "huevos",
+                "cantidad": "4"
+            },
+            {
+                "nombre": "canela en polvo",
+                "cantidad": "1/2 cucharadita"
+            },
+            {
+                "nombre": "nuez moscada",
+                "cantidad": "1 pizca"
+            },
+            {
+                "nombre": "leche condensada",
+                "cantidad": "1/2 lata"
+            },
+            {
+                "nombre": "azúcar",
+                "cantidad": "1/2 taza"
+            }
+        ],
+        "preparacion": "Se amasan todos los ingredientes juntos y se horenan por 40 minutos a 350° F (~175° C). Se pone a dorar después."
     }
+    
 
 ]
