@@ -1,0 +1,9 @@
+.recetario{
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.accordion-item{
+    background-color: rgba(156, 252, 255, 0.1);
+}
