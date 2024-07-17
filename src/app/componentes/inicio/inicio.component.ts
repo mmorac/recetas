@@ -38,7 +38,7 @@ export class InicioComponent {
       this.recetas = this.recetasBackup;
     }
     else{
-      this.recetas = this.recetas.filter(receta => 
+      this.recetas = this.recetasBackup.filter(receta => 
         receta.nombre.toLowerCase().includes(this.busqueda)
       );  
     }
