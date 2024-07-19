@@ -39,7 +39,10 @@ export class InicioComponent {
     }
     else{
       this.recetas = this.recetasBackup.filter(receta => 
-        receta.nombre.toLowerCase().includes(this.busqueda)
+        receta.nombre.toLowerCase().includes(this.busqueda) ||
+        receta.ingredientes.some(ingrediente => 
+          ingrediente.nombre.toLowerCase().includes(this.busqueda)
+        )
       );  
     }
     console.log("RECETAS:" + this.recetas);
