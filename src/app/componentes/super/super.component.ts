@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { item } from 'src/app/modelos/item';
 import { lista } from 'src/app/modelos/lista';
 import { SuperService } from 'src/app/servicios/super/super.service';
 
@@ -49,6 +50,20 @@ export class SuperComponent {
       this.draggedItem = null;
       this.draggedFromIndex = -1;
     }
+  }
+
+  marcar(item:item){
+    item.marcado = !item.marcado;
+  }
+
+  agregarNuevo(index:number){
+    var nuevo: item = {
+      descripcion: '',
+      marcado: false,
+      super: this.listas[index].super 
+    };
+    this.listas[index].items.push(nuevo);
+    
   }
 
 }

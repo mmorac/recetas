@@ -20,12 +20,15 @@
                         <i class="bi bi-grip-vertical"></i>
                     </div>
                     <div class="chkArticulo">
-                        <input type="checkbox" class="form-check-input" [checked]="item.marcado">
+                        <input type="checkbox" class="form-check-input" [checked]="item.marcado" (change)="marcar(item)">
                     </div>
                     <div class="descArticulo">
                         <input type="text" class="form-control" value="{{item.descripcion}}" [disabled]="!item.marcado">
                     </div>
                 </div>
+            </div>
+            <div class="agregar">
+                <button type="button" class="btn btn-success" (click)="agregarNuevo(i)">Agregar</button>
             </div>
           </div>
         </div>
