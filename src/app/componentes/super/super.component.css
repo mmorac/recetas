@@ -1,0 +1,36 @@
+.contenedor-logo{
+    width: 30%;
+}
+
+.logo{
+    height: 4rem;
+    width: 8rem;
+}
+
+.nombre-super{
+    width: 70%;
+    text-align: center;
+}
+
+.Articulo{
+    width: 100%;
+    height: 5rem;
+}
+
+.dragArticulo{
+    display: flex;
+    float: left;
+    width: 20%;
+}
+
+.chkArticulo{
+    display: flex;
+    float: left;
+    width: 20%;
+}
+
+.descArticulo{
+    display: flex;
+    float: left;
+    width: 60%;
+}
