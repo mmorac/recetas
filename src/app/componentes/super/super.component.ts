@@ -2,15 +2,20 @@ import { Component } from '@angular/core';
 import { item } from 'src/app/modelos/item';
 import { lista } from 'src/app/modelos/lista';
 import { SuperService } from 'src/app/servicios/super/super.service';
+import { getStorage, ref, uploadBytes } from 'firebase/storage';
 
 @Component({
   selector: 'app-super',
   templateUrl: './super.component.html',
   styleUrls: ['./super.component.css']
 })
+
 export class SuperComponent {
+
+
   listas:lista[] = [];
-  
+  habilitarActualizar:boolean = false;
+
   constructor(private superServicio:SuperService){
 
   }
@@ -49,11 +54,13 @@ export class SuperComponent {
       toList.items.push(this.draggedItem);
       this.draggedItem = null;
       this.draggedFromIndex = -1;
+      this.habilitarActualizar = true;
     }
   }
 
   marcar(item:item){
     item.marcado = !item.marcado;
+    this.habilitarActualizar = true;
   }
 
   agregarNuevo(index:number){
@@ -63,7 +70,18 @@ export class SuperComponent {
       super: this.listas[index].super 
     };
     this.listas[index].items.push(nuevo);
-    
+    this.habilitarActualizar = true;
   }
 
+  actualizarDescripcion(i:number, j:number, evento:Event):void{
+    var valorInputElement = evento.target as HTMLInputElement;
+    var descripcion = valorInputElement.value;
+    this.listas[i]["items"][j]["descripcion"] = descripcion;
+  }
+
+  actualizarLista():void{
+    var listaString = JSON.stringify(this.listas);
+    this.superServicio.actualizarListas(listaString);
+    this.habilitarActualizar = false;
+  }
 }

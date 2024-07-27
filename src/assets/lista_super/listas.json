@@ -24,10 +24,5 @@
         "super": "AhorraMás",
         "logo_url": "assets/img/ahorramas.png",
         "items":[]
-    },
-    {
-        "super": "Día",
-        "logo_url": "assets/img/dia.png",
-        "items":[]
     }
 ]

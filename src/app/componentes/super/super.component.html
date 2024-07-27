@@ -1,5 +1,7 @@
 <div class="supermercado">
-
+    <div class="actualizar">
+        <button class="btn btn-success" (click)="actualizarLista()" [hidden]="!habilitarActualizar">Actualizar mi lista</button>
+    </div>
     <div class="accordion" id="accordionExample">
         <div class="accordion-item" [attr.id]="'accordion_' + i" *ngFor="let lista of listas; let i = index">
           <h2 class="accordion-header" [attr.id]="lista['super']" (dragover)="allowDrop($event)" (drop)="drop($event, i)">
@@ -15,15 +17,15 @@
           <div [attr.id]="'collapse_' + i" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             
             <div class="accordion-body">
-                <div class="Articulo" *ngFor="let item of lista.items" [attr.data-index]="i" [attr.data-item]="item" draggable="true" (dragstart)="dragStart($event, item)">
+                <div class="Articulo" *ngFor="let item of lista.items, let j = index" [attr.data-index]="i" [attr.data-item]="item" draggable="true" (dragstart)="dragStart($event, item)">
                     <div class="dragArticulo">
                         <i class="bi bi-grip-vertical"></i>
                     </div>
                     <div class="chkArticulo">
                         <input type="checkbox" class="form-check-input" [checked]="item.marcado" (change)="marcar(item)">
                     </div>
-                    <div class="descArticulo">
-                        <input type="text" class="form-control" value="{{item.descripcion}}" [disabled]="!item.marcado">
+                    <div class="descArticulo" [attr.id]="j">
+                        <input type="text" class="form-control" value="{{item.descripcion}}" [disabled]="!item.marcado" (change)="actualizarDescripcion(i, j, $event)">
                     </div>
                 </div>
             </div>
@@ -33,5 +35,6 @@
           </div>
         </div>
     </div>
+
   
 </div>
