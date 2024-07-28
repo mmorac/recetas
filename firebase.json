@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/recetas/src",
+    "public": "src",
     "ignore": [
       "firebase.json",
       "**/.*",
