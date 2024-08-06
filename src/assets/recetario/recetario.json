@@ -403,7 +403,43 @@
             }
         ],
         "preparacion": "Se amasan todos los ingredientes juntos y se horenan por 40 minutos a 350° F (~175° C). Se pone a dorar después."
+    },
+    {
+        "nombre": "Tarta de queso",
+        "autor": "Mario",
+        "ingredientes":[
+            {
+                "nombre":"queso crema",
+                "cantidad": "500g"
+            },
+            {
+                "nombre": "nata para cocinar",
+                "cantidad": "200ml"
+            },
+            {
+                "nombre": "azúcar",
+                "cantidad": "4 cucharadas"
+            },
+            {
+                "nombre": "huevos",
+                "cantidad": "3"
+            },
+            {
+                "nombre": "maizena",
+                "cantidad": "40g"
+            },
+            {
+                "nombre": "canela",
+                "cantidad": "al gusto"
+            },
+            {
+                "nombre": "sal",
+                "cantidad": "1 pizca"
+            }
+        ],
+        "preparacion": "Batir todos los ingredientes hasta formar una mezcla uniforme. Poner en un recipiente apropiado para freidora de aire y tapar con aluminio, haciendo huecos en él. Precalentar la freidora de aire por 5 minutos a 200° C. Una vez caliente, poner la tarta por 40 minutos a 170° C. Luego, se pone nuevamente por 8 minutos a 200° C. Se pone a refrescar a temperatura ambiente por 15 minutos. Finalmente, se pone a enfriar en la refrigeradora. Una vez estando fría, puede comerse."
     }
+
     
 
 ]
