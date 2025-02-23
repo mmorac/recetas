@@ -2,27 +2,21 @@
     {
         "super": "Mercadona",
         "logo_url": "assets/img/mercadona.png",
-        "items":[
-            {
-                "descripcion": "Nachos 2",
-                "super": "Mercadona",
-                "marcado": false
-            },
-            {
-                "descripcion": "Mantequilla de maní",
-                "super": "Mercadona",
-                "marcado": true
-            }
-        ]
+        "items":[]
     },
     {
-        "super": "Carrefour",
-        "logo_url": "assets/img/carrefour.png",
+        "super": "Alcampo",
+        "logo_url": "assets/img/alcampo.png",
         "items":[]
     },
     {
         "super": "AhorraMás",
         "logo_url": "assets/img/ahorramas.png",
+        "items":[]
+    },
+    {
+        "super": "Carrefour",
+        "logo_url": "assets/img/carrefour.png",
         "items":[]
     }
 ]
